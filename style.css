@@ -409,19 +409,25 @@ body{
 ============================= */
 @media only screen and (max-width: 1300px){
     .full-section{
-        zoom: 80%;
+        transform-origin: top left;
+        transform: scale(80%);
+        /* zoom: 80%; */
     }
 }
 
 @media only screen and (max-width: 1050px){
     .full-section{
-        zoom: 65%;
+        transform-origin: top left;
+        transform: scale(60%);
+        /* zoom: 65%; */
     }
 }
 
 @media only screen and (max-width: 950px) {
     .full-section{
-        transform: scale(95%);
+        transform-origin: top left;
+        transform: scale(80%);
+        /* zoom: 35%; */
     }
     .container{
         display: flex;
@@ -495,29 +501,39 @@ body{
 
 @media only screen and (max-width: 850px){
     .full-section{
-        transform: scale(90%);
+        transform-origin: top left;
+        transform: scale(100%);
+        /* zoom: 90%; */
     }
 }
 @media only screen and (max-width: 700px){
     .full-section{
-        transform: scale(60%);
+        transform-origin: top left;
+        transform: scale(65%);
+        /* zoom: 60%; */
     }
 }
 
 @media only screen and (max-width: 500px){
     .full-section{
+        transform-origin: top left;
         transform: scale(50%);
+        /* zoom: 50%; */
     }
 }
 
 @media only screen and (max-width: 400px){
     .full-section{
+        transform-origin: top left;
         transform: scale(45%);
+        /* zoom: 45%; */
     }
 }
 
 @media only screen and (max-width: 300px){
     .full-section{
+        transform-origin: top left;
         transform: scale(35%);
+        /* zoom: 35%; */
     }
 }
