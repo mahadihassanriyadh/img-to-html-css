@@ -9,10 +9,6 @@ body{
     background: radial-gradient(#575757, #313131);
 }
 
-.full-section{
-    zoom: 100%
-}
-
 .container{
     display: flex;
     align-items: center;
@@ -407,17 +403,6 @@ body{
 /* =============================
 ========  Media Query  ========= 
 ============================= */
-@media only screen and (max-width: 1300px){
-    .full-section{
-        zoom: 80%;
-    }
-}
-
-@media only screen and (max-width: 1050px){
-    .full-section{
-        zoom: 65%;
-    }
-}
 
 @media only screen and (max-width: 950px) {
     .full-section{
