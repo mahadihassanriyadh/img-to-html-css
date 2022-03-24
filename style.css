@@ -407,8 +407,22 @@ body{
 /* =============================
 ========  Media Query  ========= 
 ============================= */
+@media only screen and (max-width: 1300px){
+    .full-section{
+        zoom: 80%;
+    }
+}
+
+@media only screen and (max-width: 1050px){
+    .full-section{
+        zoom: 65%;
+    }
+}
 
 @media only screen and (max-width: 950px) {
+    .full-section{
+        zoom: 100%;
+    }
     .container{
         display: flex;
         flex-direction: column;
@@ -479,13 +493,31 @@ body{
 }
 
 
+@media only screen and (max-width: 850px){
+    .full-section{
+        zoom: 90%;
+    }
+}
 @media only screen and (max-width: 700px){
     .full-section{
         zoom: 60%;
     }
 }
+
 @media only screen and (max-width: 500px){
     .full-section{
         zoom: 50%;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .full-section{
+        zoom: 45%;
+    }
+}
+
+@media only screen and (max-width: 300px){
+    .full-section{
+        zoom: 35%;
     }
 }
